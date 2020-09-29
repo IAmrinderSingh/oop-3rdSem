@@ -9,6 +9,7 @@ int main() {
     cout << "Enter " << i << "th element:";
     cin >> array[i];
   }
+  //sorting array in descending order
   for (i = 1; i <= array_size; i++) {
     for (j = 1; j <= array_size - i; j++) {
       if (array[j] < array[j + 1]) {

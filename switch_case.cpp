@@ -5,7 +5,7 @@ int main() {
   char opr;
   cout << "Enter first operand: ";
   cin >> num1;
-  a:
+a:
   cout << "Enter desired operator(+,-,*,/): ";
   cin >> opr;
   cout << "Enter second operand: ";
@@ -23,11 +23,10 @@ int main() {
   case '/': {
     cout << num1 << " / " << num2 << " = " << num1 / num2;
   } break;
-  default:{
+  default: {
     cout << "Wrong operator!!!\n";
     goto a;
-  }
-    break;
+  } break;
   }
   return 0;
 }

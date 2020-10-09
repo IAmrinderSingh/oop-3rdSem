@@ -19,7 +19,7 @@ public:
   }
   void display() {
     cout << "Your given data is below:";
-    cout << "Name: " << name << "\nRoll number: " << roll_no << "\nAge: " << age
+    cout << "\nName: " << name << "\nRoll number: " << roll_no << "\nAge: " << age
          << "\nAddress: " << address;
   }
 };
